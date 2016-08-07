@@ -11,6 +11,9 @@ Mettre à jour les variables d'environnement de java
 $ sudo apt install oracle-java8-set-default
 $ source /etc/profile
 
+Pour utiliser Oracle Java 8 avec PhpStorm :
+Lancer PhpStorm, Ctrl+Shift+A, choisir "Switch IDE boot JDK...", sélectionner la jvm
+
 ## Installer PhpStorm
 
 Source : https://www.linuxbabe.com/desktop-linux/install-phpstorm-ubuntu-15-10
