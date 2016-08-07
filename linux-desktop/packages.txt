@@ -3,3 +3,4 @@ vim
 i3
 thunar
 chromium-browser
+terminator
