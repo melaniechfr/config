@@ -5,3 +5,4 @@ thunar
 chromium-browser
 terminator
 lxc
+htop
