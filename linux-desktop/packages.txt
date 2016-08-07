@@ -1,0 +1,5 @@
+git
+vim
+i3
+thunar
+chromium-browser
