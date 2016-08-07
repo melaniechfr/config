@@ -4,3 +4,4 @@ i3
 thunar
 chromium-browser
 terminator
+lxc
