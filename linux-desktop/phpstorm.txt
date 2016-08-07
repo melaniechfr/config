@@ -1,0 +1,40 @@
+# Installer PhpStorm
+
+## Installer Oracle Java 8
+
+Ajouter le PPA et installer Oracle Java 8
+$ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt update
+$ sudo apt install java-common oracle-java8-installer
+
+Mettre à jour les variables d'environnement de java
+$ sudo apt install oracle-java8-set-default
+$ source /etc/profile
+
+## Installer PhpStorm
+
+Source : https://www.linuxbabe.com/desktop-linux/install-phpstorm-ubuntu-15-10
+
+Télécharger PhpStorm sur https://www.jetbrains.com/phpstorm/download
+
+Extraire l'archive 
+$ tar xzvf PhpStorm-2016.2.tar.gz
+
+Déplacer le dossier vers /opt
+$ sudo mv PhpStorm-162.1121.38/ /opt/phpstorm/
+
+Créer un lien symbolique
+$ sudo ln -s /opt/phpstorm/bin/phpstorm.sh /usr/local/bin/phpstorm
+
+Pour lancer l'application
+$ phpstorm
+
+## Mes choix pour la configuration initiale
+
+Keymap scheme: Default
+IDE theme: Darcula
+Editor colors and fonts: Darcula
+x Enable opening files and projects from the command line
+x Create desktop entry (integrate in system menu)
+	- For all users
+
