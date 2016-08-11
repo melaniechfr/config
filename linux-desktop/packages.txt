@@ -6,3 +6,4 @@ chromium-browser
 terminator
 lxc
 htop
+vagrant
