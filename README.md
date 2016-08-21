@@ -1,3 +1,4 @@
-# Config
-Mes fichiers de configuration
+# Packages desktop
+
+Les paquets que j'utilise sur mon pc de bureau.
 
